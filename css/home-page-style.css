@@ -348,11 +348,11 @@
 }
 
 .owl-carousel .prev-slide:hover {
-    background-position: 10px;
+    background-position: 0px;
 }
 
 .owl-carousel .next-slide:hover {
-    background-position: 10px;
+    background-position: 0px;
 }
 
 .owl-slide-item {
@@ -459,6 +459,10 @@
     padding: 0 10px;
 }
 
+/* .external-links li:first-child {
+    padding-left: 0;
+} */
+
 .external-links li a {
     color: #fff;
     font-weight: 500;
@@ -474,6 +478,10 @@
     position: absolute;
     top: 4px;
     bottom: 2px;
+}
+
+.external-links li:last-child a::after {
+    display: none;
 }
 
 .footer-segment h5 {
@@ -538,7 +546,6 @@
     }
 
     #wrapper {
-
         top: 58%;
         height: 360px;
     }
